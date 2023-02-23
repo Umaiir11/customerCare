@@ -2,12 +2,12 @@ import 'package:customercare/ClassModules/cmGlobalVariables.dart';
 import 'package:customercare/MVVM/View/VwAssignedBranches.dart';
 import 'package:customercare/MVVM/View/VwDrawer.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -50,7 +50,7 @@ class _VwCompanyState extends State<VwCompany> {
                     padding: EdgeInsets.only(left: Pr_height * 0),
                     child: IconButton(
                       icon: Icon(
-                        Icons.whatsapp_outlined,
+                        MdiIcons.whatsapp,
                         size: 20,
                         color: Colors.green,
                       ),

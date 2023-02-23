@@ -42,7 +42,7 @@ class _VwAssignedBranchesState extends State<VwAssignedBranches> {
                     padding: EdgeInsets.only(left: Pr_height * 0),
                     child: IconButton(
                       icon: Icon(
-                        Icons.whatsapp_outlined,
+                        MdiIcons.whatsapp,
                         size: 20,
                         color: Colors.green,
                       ),
